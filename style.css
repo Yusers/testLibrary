@@ -1,0 +1,28 @@
+
+#header-section .heading2 {
+
+}
+
+.row {
+    float: left;
+}
+
+.col-third {
+    width: 100%/3;
+}
+
+#header-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#header-section .img-season {
+    margin: 0 16px;
+}
+
+
+#header-section .img-season img {
+    width: 400px;
+}
