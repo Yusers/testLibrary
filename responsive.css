@@ -1,8 +1,13 @@
 @media (max-width: 994px) {
-    #header-container .img-season {
-        padding: 0 64px;
-        width: 757px;
+
+    #header-container {
+        flex-direction: column;
     }
+
+    #header-container .img-season {
+        width: 740px;
+    }
+
     #header-container .img-season h3 {
         font-size: 40px;
     }
