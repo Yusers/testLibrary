@@ -1,5 +1,9 @@
-@media (min-width: 1124px) {
-    #header-section .img-season img {
-        width: 600px;
+@media (max-width: 994px) {
+    #header-container .img-season {
+        padding: 0 64px;
+        width: 757px;
+    }
+    #header-container .img-season h3 {
+        font-size: 40px;
     }
 }

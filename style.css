@@ -1,28 +1,33 @@
 
-#header-section .heading2 {
+#header-container .heading2 {
 
 }
 
-.row {
-    float: left;
-}
-
-.col-third {
-    width: 100%/3;
+.heading {
+    font-size: 50px;
 }
 
 #header-section {
+    
+}
+
+#header-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-#header-section .img-season {
-    margin: 0 16px;
+#header-container .img-season {
+    width: 320px;
 }
 
+#header-container .img-season h3 {
+    width:100%;
+    font-size: 18px;
+}
 
-#header-section .img-season img {
-    width: 400px;
+#header-container .img-season img {
+    width: 100%;
 }
